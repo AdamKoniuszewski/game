@@ -1,0 +1,69 @@
+<!DCOTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="Scripts/gamemanager.js"></script>
+    <script src="Scripts/player.js"></script>
+    <script src="Scripts/enemy.js"></script>
+</head>
+
+
+<body>
+
+    <div class="header">
+        <p>Play best Arena game online!</p>
+        <h1>Choose your character</h1>
+    </div>
+
+
+    <div class="characterInterface">
+        <a href="#" onclick="GameManager.setGameStart('Warrior')">
+            <img src="img/avatar-character/warrior.png" alt="warrior">
+            <div>
+                <h3>Warrior</h3>
+                <p>Description</p>
+            </div>
+        </a>    
+        <a href="#" onclick="GameManager.setGameStart('Hunter')">
+            <img src="img/avatar-character/hunter.png" alt="Hunter">
+            <div>
+                <h3>Hunter</h3>
+                <p>Description</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Rogue')">
+            <img src="img/avatar-character/rogue.png" alt="Rogue">
+            <div>
+                <h3>Rogue</h3>
+                <p>Description</p>
+            </div>
+        </a>
+        <a href="#" onclick="GameManager.setGameStart('Mage')">
+            <img src="img/avatar-character/mage.png" alt="Mage">
+            <div>
+                <h3>Mage</h3>
+                <p>Description</p>
+            </div>
+        </a>
+    </div>
+
+
+    <div class="actionButton">
+
+    </div>
+    <div class="arena">
+
+
+    </div>
+    <div class="enemy">
+
+
+    </div>
+</body>
+
+
+</html>
